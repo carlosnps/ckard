@@ -1,0 +1,55 @@
+name = Kart
+description = Install with commonly used features pre-configured.
+version = VERSION
+core = 7.x
+dependencies[] = admin_menu
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = conditional_fields
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = date
+dependencies[] = date_popup
+dependencies[] = features
+dependencies[] = fe_block
+dependencies[] = fe_date
+dependencies[] = fe_profile
+dependencies[] = help
+dependencies[] = image
+dependencies[] = libraries
+dependencies[] = link
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = pathauto
+dependencies[] = panels
+dependencies[] = page_manager
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = token
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+dependencies[] = strongarm
+dependencies[] = views
+dependencies[] = views_slideshow
+dependencies[] = views_slideshow_cycle
+
+
+; Custom Features
+dependencies[] = merchant_category
+dependencies[] = homepage
+dependencies[] = deal_types
+dependencies[] = ck_users
+
+; Information added by Drupal.org packaging script on 2015-06-17
+version = "7.38"
+project = "drupal"
+datestamp = "1434567286"

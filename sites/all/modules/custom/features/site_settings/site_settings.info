@@ -1,0 +1,14 @@
+name = Site Settings
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = fe_block
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[fe_block_settings][] = block-ck_footer
+features[fe_block_settings][] = system-powered-by
+features[fe_block_settings][] = user-login
+features[features_api][] = api:2
+features[variable][] = site_frontpage
+features[variable][] = site_name
+features_exclude[fe_block_boxes][ck_footer] = ck_footer
