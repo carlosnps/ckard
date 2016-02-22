@@ -15,4 +15,5 @@ features[variable][] = color_bartik_palette
 features[variable][] = color_bartik_stylesheets
 features[variable][] = site_frontpage
 features[variable][] = site_name
+features[variable][] = site_slogan
 features_exclude[fe_block_boxes][ck_footer] = ck_footer

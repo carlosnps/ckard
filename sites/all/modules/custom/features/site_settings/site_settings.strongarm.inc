@@ -67,5 +67,12 @@ function site_settings_strongarm() {
   $strongarm->value = 'Community Kard';
   $export['site_name'] = $strongarm;
 
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'site_slogan';
+  $strongarm->value = 'The better way for loaylty play ...';
+  $export['site_slogan'] = $strongarm;
+
   return $export;
 }
