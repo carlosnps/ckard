@@ -15,6 +15,7 @@ dependencies[] = features
 dependencies[] = fe_block
 dependencies[] = fe_date
 dependencies[] = fe_profile
+dependencies[] = field_group
 dependencies[] = help
 dependencies[] = image
 dependencies[] = libraries
