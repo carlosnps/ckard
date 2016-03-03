@@ -1,5 +1,7 @@
 <?php
 /**
  * @file
- * Drupal needs this blank file.
+ * Code for the CK Users feature.
  */
+
+include_once 'ck_users.features.inc';
